@@ -1,0 +1,34 @@
+{
+  "build_command": "pnpm run build",
+  "capabilities": [],
+  "dev_command": "pnpm run dev",
+  "env_vars": {},
+  "experiments": null,
+  "git_remote": {
+    "repo_url": "https://7f0548f6b28a1758d9bf7be630d36cb4.artifacts.cloudflare.net/git/prod/M2Aj8Gb4m3H95DwZx8xhqC.git",
+    "expiration": "2026-08-21T18:26:20.461Z",
+    "token": "art_v2_x_4f6aa2097d952f5760ea53a6bf4ff08a05c26fa4?expires=1787336780",
+    "backend": "GIT_BACKEND_ARTIFACTS"
+  },
+  "name": "victory-tech-portfolio",
+  "path": "/home/ubuntu/victory-tech-portfolio",
+  "port": 3000,
+  "secrets": {
+    "BUILT_IN_FORGE_API_KEY": "nbsGcvnEvjGgrYpBTDZT4F",
+    "BUILT_IN_FORGE_API_URL": "https://forge.manus.ai",
+    "JWT_SECRET": "WjrpFxL5cKG25TaXDYR7an",
+    "OAUTH_SERVER_URL": "https://api.manus.im",
+    "OWNER_NAME": "Victory Patrick",
+    "OWNER_OPEN_ID": "m8h7smxmoCxM8v2yvB9iWB",
+    "VITE_ANALYTICS_ENDPOINT": "https://manus-analytics.com",
+    "VITE_ANALYTICS_WEBSITE_ID": "cbdc0a06-d2a0-40c0-a159-ed674aae121e",
+    "VITE_APP_ID": "M2Aj8Gb4m3H95DwZx8xhqC",
+    "VITE_APP_LOGO": "",
+    "VITE_APP_TITLE": "Victory Tech — Building Ideas. Creating Technology.",
+    "VITE_FRONTEND_FORGE_API_KEY": "9ijbXGb9cz6gush9KAoMxM",
+    "VITE_FRONTEND_FORGE_API_URL": "https://forge.manus.ai",
+    "VITE_OAUTH_PORTAL_URL": "https://manus.im"
+  },
+  "template_id": "web-static",
+  "test_command": "pnpm test"
+}

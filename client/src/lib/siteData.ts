@@ -1,6 +1,6 @@
 // Signal Noir: editable content and project configuration for the Victory Tech portfolio.
 import type { LucideIcon } from "lucide-react";
-import { Bot, Braces, Gamepad2, Globe2, MessageSquareText, Server, Wrench, Zap } from "lucide-react";
+import { Bot, Braces, Download, Gamepad2, Globe2, MessageSquareText, Server, Sparkles, Wrench, Zap } from "lucide-react";
 
 export type ProjectCategory = "Web Applications" | "Bots" | "Games" | "Tools" | "Messaging";
 
@@ -70,6 +70,32 @@ export const projects: Project[] = [
     url: "https://wa.me/2347038253086",
     icon: Bot,
     accent: "amber",
+  },
+  {
+    id: "tiktok-video-downloader",
+    name: "TikTok Video Downloader",
+    category: "Tools",
+    label: "Video utility",
+    description: "A practical video utility for working with TikTok content through a focused, easy-to-use web experience.",
+    tags: ["TikTok", "Video", "Utility"],
+    status: "Live link",
+    action: "Open TikTok Downloader",
+    url: "https://vt.tiktok.com/ZSVmYXqKj/",
+    icon: Download,
+    accent: "cyan",
+  },
+  {
+    id: "lawliet-gpt",
+    name: "Lawliet GPT",
+    category: "Web Applications",
+    label: "AI chat platform",
+    description: "An AI chat platform for continuing conversations through a focused web interface with account-based access.",
+    tags: ["AI", "Chat", "Web app"],
+    status: "Live build",
+    action: "Open Lawliet GPT",
+    url: "https://lawliet-lilac.vercel.app/",
+    icon: Sparkles,
+    accent: "violet",
   },
 ];
 

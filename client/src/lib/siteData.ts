@@ -80,7 +80,7 @@ export const projects: Project[] = [
     tags: ["TikTok", "Video", "Utility"],
     status: "Live link",
     action: "Open TikTok Downloader",
-    url: "https://vt.tiktok.com/ZSVmYXqKj/",
+    url: "https://tiktok-downloader-two-psi.vercel.app/",
     icon: Download,
     accent: "cyan",
   },

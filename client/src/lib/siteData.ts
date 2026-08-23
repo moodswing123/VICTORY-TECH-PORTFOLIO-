@@ -97,6 +97,19 @@ export const projects: Project[] = [
     icon: Sparkles,
     accent: "violet",
   },
+  {
+    id: "session-id-generator",
+    name: "Session ID Generator",
+    category: "Tools",
+    label: "Developer utility",
+    description: "A focused developer utility for generating session identifiers through a lightweight web interface.",
+    tags: ["Sessions", "Developer tool", "Web app"],
+    status: "Live build",
+    action: "Open Session Generator",
+    url: "https://session-generator-delta.vercel.app/",
+    icon: Braces,
+    accent: "amber",
+  },
 ];
 
 export const technologyGroups = [

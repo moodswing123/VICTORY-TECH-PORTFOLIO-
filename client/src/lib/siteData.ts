@@ -14,6 +14,8 @@ export type Project = {
   status: string;
   action: string;
   url?: string;
+  version?: string;
+  installGuide?: string;
   icon: LucideIcon;
   accent: "lime" | "cyan" | "amber" | "violet";
 };
@@ -120,6 +122,8 @@ export const projects: Project[] = [
     status: "APK release",
     action: "Download APK",
     url: "https://www.mediafire.com/file/crbwue5he6p5qdl/lawlietgpt-1.0.1.apk/file",
+    version: "1.0.1",
+    installGuide: "Android: download the APK, then allow Install unknown apps for your browser or file manager in Settings → Security before opening it.",
     icon: Download,
     accent: "violet",
   },

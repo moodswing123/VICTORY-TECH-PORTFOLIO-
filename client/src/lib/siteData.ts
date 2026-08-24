@@ -110,6 +110,19 @@ export const projects: Project[] = [
     icon: Braces,
     accent: "amber",
   },
+  {
+    id: "lawliet-gpt-android",
+    name: "Lawliet GPT Android App",
+    category: "Tools",
+    label: "Android app",
+    description: "The Android companion app for Lawliet GPT, available as a direct APK download for mobile use.",
+    tags: ["Android", "AI", "APK"],
+    status: "APK release",
+    action: "Download APK",
+    url: "https://www.mediafire.com/file/crbwue5he6p5qdl/lawlietgpt-1.0.1.apk/file",
+    icon: Download,
+    accent: "violet",
+  },
 ];
 
 export const technologyGroups = [

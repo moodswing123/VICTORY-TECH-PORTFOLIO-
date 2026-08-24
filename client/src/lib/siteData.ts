@@ -127,6 +127,19 @@ export const projects: Project[] = [
     icon: Download,
     accent: "violet",
   },
+  {
+    id: "learn-crypto",
+    name: "Learn Crypto",
+    category: "Web Applications",
+    label: "Learning platform",
+    description: "An accessible learning experience for exploring cryptocurrency concepts, terminology, and digital finance fundamentals.",
+    tags: ["Crypto", "Education", "Web app"],
+    status: "Live build",
+    action: "Open Learn Crypto",
+    url: "https://crypto-slim.vercel.app/",
+    icon: Globe2,
+    accent: "lime",
+  },
 ];
 
 export const technologyGroups = [

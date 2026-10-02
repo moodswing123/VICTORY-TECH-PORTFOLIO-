@@ -141,20 +141,18 @@ export const projects: Project[] = [
     accent: "lime",
   },
   {
-    id: "Ban Checker",
+    id: "ban-checker",
     name: "WhatsApp Ban Checker",
     category: "Web Applications",
     label: "Ban Checker",
-    description: "Fast access whatsap ban checker",
+    description: "Fast, privacy-conscious WhatsApp ban checking through a focused web tool.",
     tags: ["Web app", "Social", "Education"],
     status: "Live build",
-    action: "Free Ban Checker",
+    action: "Open Ban Checker",
     url: "https://victory-tech-ban-checker-riay.vercel.app/",
     icon: Globe2,
     accent: "amber",
   },
-      
-      
 ];
 
 export const technologyGroups = [

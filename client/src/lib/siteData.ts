@@ -1,4 +1,4 @@
-a// Signal Noir: editable content and project configuration for the Victory Tech portfolio.
+// Signal Noir: editable content and project configuration for the Victory Tech portfolio.
 import type { LucideIcon } from "lucide-react";
 import { Bot, Braces, Download, Gamepad2, Globe2, MessageSquareText, Server, Sparkles, Wrench, Zap } from "lucide-react";
 
@@ -153,22 +153,19 @@ export const projects: Project[] = [
     icon: Globe2,
     accent: "amber",
   },
-];
-
-},
-{ 
-  id: "pintrest-download-engine",
-  name: "Pintrest Download Engine",
-  category: "Web Applications",
-  label: "Download Engine",
-  description: "Fast' 50 Requests Monthly",
-  tags: ["Web app",],
-  status: "Live build",
-  action: "Download Engine",
-  url: "https://pinterestdownloader-three.vercel.app/",
-  icon: Globe2,
-  accent: "amber",
- },
+  {
+    id: "pinterest-download-engine",
+    name: "Pinterest Download Engine",
+    category: "Web Applications",
+    label: "Download Engine",
+    description: "Download public Pinterest images and videos in a simple, fast web app.",
+    tags: ["Pinterest", "Video", "Web app"],
+    status: "Live build",
+    action: "Open Download Engine",
+    url: "https://pinterestdownloader-three.vercel.app/",
+    icon: Globe2,
+    accent: "amber",
+  },
 ];
 
 
